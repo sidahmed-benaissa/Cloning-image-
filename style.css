@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  background-color: #431883;
+  margin: auto;
+  margin-top: 4rem;
+  align-items: center;
+  width: 48rem;
+  height: 80vh;
+}
+
+.top-bar {
+  width: 100%;
+  height: 40px;
+  border-top-right-radius: 18px;
+  border-top-left-radius: 18px;
+  background-color: #2d005d;
+  display: flex;
+  flex: row;
+}
+.circles-container {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+}
+.white-circle {
+  border-radius: 50%;
+  width: 9px;
+  height: 9px;
+  background-color: white;
+  margin: 15px 2px;
+}
+.subject {
+  display: flex;
+  flex-direction: column;
+  width: 47em;
+  height: 80wh;
+}
+
+.button-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+}
+.humburger-menu {
+  /* padding-top: 20px; */
+  padding-left: 38px;
+}
+.lines {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3px;
+  background-color: white;
+  width: 13px;
+  height: 1.5px;
+  border-radius: 2px;
+}
+.contact-button {
+  background-color: #b780fe;
+  color: #2d005d;
+  width: 82px;
+  height: 34px;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 4px;
+  margin-right: 38px;
+  /* border-style: solid; */
+  border-width: 0px;
+}
+
+.main-subject {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.titles {
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+  padding-left: 38px;
+}
+.main-title {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+h1 {
+  font-size: 38px;
+  font-weight: 550;
+  color: white;
+  padding-bottom: 0px;
+  margin-bottom: 6px;
+}
+.sub-title-paragraph {
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 0px;
+  margin-bottom: 28px;
+  padding-top: 0px;
+}
+
+#email-form {
+  width: 202px;
+  height: 40px;
+  border-radius: 8px;
+  border-width: 0px;
+  border-style: solid;
+  padding-left: 20px;
+  margin-right: 6px;
+  outline: none;
+}
+::placeholder {
+  color: black;
+  font-weight: 500;
+}
+
+.sign-up-button {
+  background-color: #c6fa72;
+  color: black;
+  width: 82px;
+  height: 40px;
+  border-radius: 8px;
+  border-style: solid;
+  border-width: 0px;
+  font-weight: 500;
+}
+
+.statistics {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 56px;
+}
+
+.big-rounded-circles {
+  display: flex;
+  flex-direction: row;
+}
+.circle1,
+.circle2,
+.circle3 {
+  width: 50px;
+  height: 50px;
+  background-color: #b880fd;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #522490;
+}
+.circle1 {
+  position: fixed;
+}
+.circle2 {
+  background-color: #b880fd;
+  left: 16px;
+  position: relative;
+}
+.circle3 {
+  background-color: #ddc0ff;
+  position: relative;
+  right: 20px;
+}
+.yellow-star {
+  font-size: 120%;
+  color: yellow;
+  margin-right: 8px;
+}
+.rating-section {
+  display: flex;
+  flex-direction: column;
+}
+.rating-section > p {
+  font-size: 14px;
+  color: white;
+  margin-bottom: 0px;
+}
+.star-rating > p {
+  font-size: 12px;
+  color: white;
+  margin-top: 6px;
+}
+.star-rating {
+  display: flex;
+  flex-direction: row;
+}
+
+.rectangle {
+  width: 220px;
+  height: 220px;
+  border-radius: 48px;
+  background-color: #e87090;
+  transform: rotate(45deg);
+  position: relative;
+  top: 40px;
+  right: 50px;
+}
+.square {
+  width: 216px;
+  height: 216px;
+  background-color: #e87090;
+  position: absolute;
+  transform: rotate(-45deg);
+  border-radius: 26px;
+}
+.hero-section-paragraphs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.hero-section-paragraphs :first-child {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 64px;
+  margin-bottom: 0px;
+}
+.hero-section-paragraphs :nth-child(2) {
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 8px;
+  padding: 0px 36px;
+}
